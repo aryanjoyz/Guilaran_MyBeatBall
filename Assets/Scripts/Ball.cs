@@ -18,7 +18,7 @@ public class Ball : MonoBehaviour
 
     void Launch()
     {
-        _rigidbody.velocity = Vector3.up * _speed;
+        _rigidbody.velocity = Vector3.down * _speed;
 
     }
 
